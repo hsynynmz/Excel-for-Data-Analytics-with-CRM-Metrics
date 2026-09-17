@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="#f5f8ff"/>
+<rect x="40" y="40" width="1120" height="540" rx="28" fill="#ffffff" stroke="#dfe7fb"/>
+<text x="80" y="105" font-family="Arial" font-size="34" font-weight="700" fill="#1d2a57">CRM &amp; RFM Analysis — Customer Segmentation</text>
+<text x="80" y="142" font-family="Arial" font-size="18" fill="#566684">CRM case study connecting behavioral segmentation to retention and growth actions.</text>
+<rect x="80" y="185" width="235" height="96" rx="18" fill="#f7faff" stroke="#dfe7fb"/><text x="104" y="222" font-family="Arial" font-size="18" fill="#667594">Core Method</text><text x="104" y="258" font-family="Arial" font-size="28" font-weight="700" fill="#215cff">RFM</text>
+<rect x="335" y="185" width="235" height="96" rx="18" fill="#f7faff" stroke="#dfe7fb"/><text x="359" y="222" font-family="Arial" font-size="18" fill="#667594">Key Segments</text><text x="359" y="258" font-family="Arial" font-size="28" font-weight="700" fill="#215cff">5</text>
+<rect x="590" y="185" width="235" height="96" rx="18" fill="#f7faff" stroke="#dfe7fb"/><text x="614" y="222" font-family="Arial" font-size="18" fill="#667594">Target Product</text><text x="614" y="258" font-family="Arial" font-size="24" font-weight="700" fill="#215cff">JAM MAKING SET</text>
+<rect x="845" y="185" width="275" height="96" rx="18" fill="#f7faff" stroke="#dfe7fb"/><text x="869" y="222" font-family="Arial" font-size="18" fill="#667594">Business Goal</text><text x="869" y="258" font-family="Arial" font-size="26" font-weight="700" fill="#215cff">Retention + Growth</text>
+<text x="80" y="338" font-family="Arial" font-size="24" font-weight="700" fill="#1d2a57">What the analysis demonstrates</text>
+<text x="98" y="382" font-family="Arial" font-size="20" fill="#4a5771">• Segments customers into Champions, Loyal, At Risk and inactivity groups.</text>
+<text x="98" y="422" font-family="Arial" font-size="20" fill="#4a5771">• Connects each segment to a different retention or reactivation action.</text>
+<text x="98" y="462" font-family="Arial" font-size="20" fill="#4a5771">• Adds market basket analysis for cross-sell and bundle opportunities.</text>
+<text x="98" y="502" font-family="Arial" font-size="20" fill="#4a5771">• Shows CRM thinking beyond simple customer classification.</text>
+<rect x="760" y="340" width="320" height="160" rx="20" fill="#23325e"/>
+<text x="790" y="385" font-family="Arial" font-size="24" font-weight="700" fill="#ffffff">Decision flow</text>
+<text x="790" y="425" font-family="Arial" font-size="19" fill="#dfe7ff">RFM → Segment → Action</text>
+<text x="790" y="458" font-family="Arial" font-size="19" fill="#dfe7ff">Retention • Reactivation</text>
+<text x="790" y="491" font-family="Arial" font-size="19" fill="#dfe7ff">Cross-sell • Basket growth</text>
+</svg>

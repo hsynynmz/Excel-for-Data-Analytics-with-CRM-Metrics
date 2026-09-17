@@ -6,6 +6,8 @@ The projects follow a business-first approach:
 
 **Business Problem → KPI Definition → Data Analysis → Segmentation → Insight → Recommendation → KPI Tracking**
 
+![Portfolio overview](03-ecommerce-customer-analytics/assets/03-capstone-overview.svg)
+
 ---
 
 ## ⭐ Featured Capstone Project

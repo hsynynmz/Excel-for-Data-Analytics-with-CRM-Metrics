@@ -6,6 +6,8 @@ This Excel case study analyzes Online Retail transaction data with a specific fo
 
 The project demonstrates how transaction-level data can be transformed into a structured business analysis using Excel formulas, customer and invoice metrics, descriptive statistics and business interpretation.
 
+![Online Retail overview](assets/01-online-retail-overview.svg)
+
 **Project Type:** Case Study  
 **Focus:** Sales Analytics / Customer Analytics / Excel
 

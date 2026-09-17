@@ -6,6 +6,8 @@ This case study focuses on customer segmentation and CRM decision-making using *
 
 The objective is to move beyond customer-level calculations and translate behavioral patterns into practical retention, reactivation and cross-sell strategies.
 
+![CRM & RFM overview](assets/02-crm-rfm-overview.svg)
+
 ---
 
 ## Business Problem

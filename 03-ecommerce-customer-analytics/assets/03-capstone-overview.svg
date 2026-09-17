@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="#f5f8ff"/>
+<rect x="40" y="40" width="1120" height="540" rx="28" fill="#ffffff" stroke="#dfe7fb"/>
+<text x="80" y="105" font-family="Arial" font-size="34" font-weight="700" fill="#1d2a57">E-Commerce Customer Analytics Strategy — Featured Capstone</text>
+<text x="80" y="142" font-family="Arial" font-size="18" fill="#566684">End-to-end CRM analytics project connecting analysis outputs to a 12-month action plan.</text>
+<rect x="80" y="185" width="235" height="96" rx="18" fill="#f7faff" stroke="#dfe7fb"/><text x="104" y="222" font-family="Arial" font-size="18" fill="#667594">Project Type</text><text x="104" y="258" font-family="Arial" font-size="28" font-weight="700" fill="#215cff">Capstone</text>
+<rect x="335" y="185" width="235" height="96" rx="18" fill="#f7faff" stroke="#dfe7fb"/><text x="359" y="222" font-family="Arial" font-size="18" fill="#667594">Analytical Pillars</text><text x="359" y="258" font-family="Arial" font-size="28" font-weight="700" fill="#215cff">4</text>
+<rect x="590" y="185" width="235" height="96" rx="18" fill="#f7faff" stroke="#dfe7fb"/><text x="614" y="222" font-family="Arial" font-size="18" fill="#667594">Planning Horizon</text><text x="614" y="258" font-family="Arial" font-size="28" font-weight="700" fill="#215cff">12 Months</text>
+<rect x="845" y="185" width="275" height="96" rx="18" fill="#f7faff" stroke="#dfe7fb"/><text x="869" y="222" font-family="Arial" font-size="18" fill="#667594">Decision Focus</text><text x="869" y="258" font-family="Arial" font-size="28" font-weight="700" fill="#215cff">CRM Strategy</text>
+<text x="80" y="338" font-family="Arial" font-size="24" font-weight="700" fill="#1d2a57">Why this is the featured project</text>
+<text x="98" y="382" font-family="Arial" font-size="20" fill="#4a5771">• Combines RFM segmentation, reactivation, market basket and satisfaction analysis.</text>
+<text x="98" y="422" font-family="Arial" font-size="20" fill="#4a5771">• Converts findings into a measurable 12-month CRM action plan.</text>
+<text x="98" y="462" font-family="Arial" font-size="20" fill="#4a5771">• Links recommendations to retention, revenue, conversion and CX KPIs.</text>
+<text x="98" y="502" font-family="Arial" font-size="20" fill="#4a5771">• Demonstrates the strongest end-to-end business story in the repository.</text>
+<rect x="760" y="340" width="320" height="160" rx="20" fill="#23325e"/>
+<text x="790" y="385" font-family="Arial" font-size="24" font-weight="700" fill="#ffffff">Capstone flow</text>
+<text x="790" y="425" font-family="Arial" font-size="19" fill="#dfe7ff">Segment → Opportunity</text>
+<text x="790" y="458" font-family="Arial" font-size="19" fill="#dfe7ff">→ Action Plan → KPI</text>
+<text x="790" y="491" font-family="Arial" font-size="19" fill="#dfe7ff">Strategy • Execution • Measurement</text>
+</svg>
