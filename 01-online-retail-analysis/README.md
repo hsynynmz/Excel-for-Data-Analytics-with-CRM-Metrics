@@ -1,110 +1,28 @@
-# Online Retail — France Sales & Customer Analysis
+# Online Retail — France Sales & Customer Analysis | Case Study
 
 ## Project Overview
 
-This project was completed as part of the **Miuul Excel & CRM Analytics** training program.
+This Excel case study analyzes Online Retail transaction data with a specific focus on **France sales performance and customer behavior**.
 
-The project focuses on analyzing the **Online Retail** transaction dataset using Microsoft Excel, with a particular focus on sales generated in **France**.
+The project demonstrates how transaction-level data can be transformed into a structured business analysis using Excel formulas, customer and invoice metrics, descriptive statistics and business interpretation.
 
-The main objective was to move from raw transaction data to meaningful sales and customer insights while applying Excel functions and analytical techniques directly to a real-world retail dataset.
-
-The workbook contains both the **underlying calculations and formulas** and the final analytical results, allowing the complete analysis process to be reviewed.
+**Project Type:** Case Study  
+**Focus:** Sales Analytics / Customer Analytics / Excel
 
 ---
 
 ## Business Questions
 
-The analysis was designed to answer the following questions:
+The analysis was designed to answer:
 
-- What is the total sales revenue generated in France?
-- How many unique customers purchased from France?
-- How much does a customer spend on average?
-- How many purchases does a customer make on average?
-- How many days are there between customer purchases on average?
-- Which product or transaction generates the highest revenue in a single purchase?
-- Which record generates the highest revenue for each day?
+- How much sales revenue is generated in France?
+- How many unique customers and invoices are there?
+- How much revenue does an average customer generate?
+- How frequently does an average customer purchase?
+- How much time passes between purchases?
+- Which transaction generates the highest single-line revenue?
 - How variable are Price, Quantity and Revenue?
-- Are there potential outliers in the data?
-
----
-
-## Excel Function Practice
-
-The project includes practical Excel function exercises performed directly on the dataset.
-
-### Functions Used
-
-- `COUNT`
-- `COUNTA`
-- `COUNTIFS`
-- `TRIM`
-- `CONCATENATE`
-- `LEFT`
-- `RIGHT`
-- `WEEKDAY`
-- `EXACT`
-- Logical equality (`=`)
-- `SUMIF`
-- `SUMIFS`
-
-These functions were applied to transaction data for filtering, counting, text manipulation, conditional calculations and data analysis.
-
----
-
-## France Sales Analysis
-
-The main case study focuses on transactions where the country is **France**.
-
-### Sales Analysis
-
-- Total sales revenue
-- Total quantity
-- Revenue calculation using `Quantity × Price`
-- Highest-revenue transaction
-
-### Customer Analysis
-
-- Unique customer count
-- Average revenue per customer
-- Average quantity per customer
-- Average number of purchases per customer
-
-### Invoice Analysis
-
-- Identification and listing of France invoices
-- Unique invoice analysis
-- Invoice-level sales calculations
-
-### Customer Purchase Behaviour
-
-- Average number of purchases per customer
-- Average time between customer purchases
-
-### Daily Revenue Analysis
-
-- Identification of the highest-revenue record for each day
-
----
-
-## Statistical Analysis
-
-The project also includes descriptive statistical analysis of the dataset.
-
-The following measures and techniques were used:
-
-- Coefficient of Variation (CV)
-- Quartiles
-- Interquartile Range (IQR)
-- Potential outlier identification
-- Interpretation of variability and extreme observations
-
-CV analysis was performed for:
-
-- Price
-- Quantity
-- Revenue
-
-The results were evaluated to understand the relative variability of these variables and to assess whether extreme observations could potentially represent outliers.
+- Are there observations that may require outlier investigation?
 
 ---
 
@@ -112,108 +30,135 @@ The results were evaluated to understand the relative variability of these varia
 
 | KPI | Result |
 |---|---:|
-| Total Sales Revenue | £197,421.90 |
-| Unique Customers | 87 |
-| Unique Invoices | 461 |
-| Average Revenue / Customer | £2,269.22 |
-| Average Purchases / Customer | 5.30 |
-| Average Time Between Purchases | 70.39 days |
-| Highest Single-Line Revenue | £4,161.06 |
-| Total Quantity | 110,481 |
+| Total Sales Revenue | **£197,421.90** |
+| Unique Customers | **87** |
+| Unique Invoices | **461** |
+| Average Revenue / Customer | **£2,269.22** |
+| Average Purchases / Customer | **5.30** |
+| Average Time Between Purchases | **70.39 days** |
+| Highest Single-Line Revenue | **£4,161.06** |
+| Total Quantity | **110,481** |
 
----
+### Business Interpretation
 
-## Workbook Structure
+The France customer base generated approximately **£197K in revenue across 461 invoices**. With 87 unique customers, the analysis provides a compact view of customer value, purchase frequency and repurchase timing that can support market-level CRM or sales follow-up.
 
-The Excel workbook is structured to show both the analysis process and the final results.
+The purpose of these KPIs is not only to report totals, but to create a baseline for questions such as:
 
-### `00 | DASHBOARD`
-
-Provides an overview of the main KPIs, project workflow and France sales analysis results.
-
-### `Year 2010-2011`
-
-Contains the original Online Retail transaction data used for the analysis.
-
-### `functions`
-
-Contains the practical Excel function exercises performed on the dataset, including formulas and their outputs.
-
-### `France Sales Analysis`
-
-Contains the detailed France-focused analysis, including invoice, customer, revenue, purchase behaviour and statistical calculations.
-
-### `04 | INSIGHTS`
-
-Summarizes the analytical results from a business perspective.
-
-### `05 | GUIDE`
-
-Provides a short guide to the workbook structure and navigation.
+- Which customers contribute the most revenue?
+- Which customers purchase frequently but generate lower value?
+- Which customers may be due for re-engagement based on time since purchase?
 
 ---
 
 ## Analytical Workflow
 
-The project follows the workflow below:
-
-**Raw Data → Excel Functions → Data Filtering → France Sales Analysis → Invoice Analysis → Customer Analysis → Revenue Analysis → Purchase Behaviour → Statistical Analysis → Business Insights**
-
-This workflow demonstrates how Excel can be used not only for calculations, but also as a practical tool for transforming transaction-level data into business-oriented insights.
+**Raw Transactions → Data Filtering → Revenue Calculation → Customer Analysis → Invoice Analysis → Purchase Behaviour → Descriptive Statistics → Business Insights**
 
 ---
 
-## Tools & Skills
+## Analysis Areas
 
-### Tool
+### Sales & Revenue
+
+- Total revenue
+- Total quantity
+- Revenue calculation using `Quantity × Price`
+- Highest-revenue transaction
+- Daily revenue checks
+
+### Customer Analytics
+
+- Unique customer count
+- Average revenue per customer
+- Average quantity per customer
+- Average number of purchases per customer
+- Average time between purchases
+
+### Invoice Analytics
+
+- Unique invoice analysis
+- Invoice-level sales calculations
+- France invoice filtering and review
+
+### Descriptive Statistics
+
+The workbook also includes:
+
+- Coefficient of Variation (CV)
+- Quartiles
+- Interquartile Range (IQR)
+- Potential outlier identification
+- Relative variability interpretation for Price, Quantity and Revenue
+
+---
+
+## Excel Skills Demonstrated
+
+The workbook includes practical use of functions such as:
+
+- `COUNT`
+- `COUNTA`
+- `COUNTIFS`
+- `SUMIF`
+- `SUMIFS`
+- `TRIM`
+- `CONCATENATE`
+- `LEFT`
+- `RIGHT`
+- `WEEKDAY`
+- `EXACT`
+
+These functions support filtering, counting, text cleaning, date handling and conditional calculations inside the analysis workflow.
+
+---
+
+## Workbook Structure
+
+### `00 | DASHBOARD`
+Main KPI overview and project summary.
+
+### `Year 2010-2011`
+Source transaction data used in the analysis.
+
+### `functions`
+Excel function exercises and supporting calculations.
+
+### `France Sales Analysis`
+Customer, invoice, revenue, purchase behaviour and statistical analysis.
+
+### `04 | INSIGHTS`
+Business-oriented interpretation of the analytical outputs.
+
+### `05 | GUIDE`
+Workbook navigation and usage notes.
+
+---
+
+## Project File
+
+- `Miuul_Online_Retail_Analysis.xlsx` — complete Excel analysis workbook
+
+The workbook retains formulas and calculations so the analysis process can be reviewed, not only the final outputs.
+
+---
+
+## Skills Demonstrated
 
 - Microsoft Excel
-
-### Excel Skills
-
-- Data filtering
-- Conditional calculations
-- Text manipulation
-- Date manipulation
-- Revenue calculations
-- Customer-level analysis
-- Invoice-level analysis
-- Descriptive statistics
-- Outlier analysis
-
-### Analytical Skills
-
-- Sales analysis
-- Customer analytics
-- Revenue analysis
-- KPI calculation
-- Purchase frequency analysis
-- Statistical interpretation
+- KPI Calculation
+- Sales Analysis
+- Customer Analytics
+- Invoice Analysis
+- Purchase Frequency Analysis
+- Descriptive Statistics
+- Outlier Analysis
+- Business Insight Generation
 
 ---
 
-## Project Files
+## Portfolio Role
 
-The complete Excel workbook is available in this repository:
+This case study demonstrates the Excel and KPI-analysis foundations used in the broader [E-Commerce Customer Analytics Capstone Project](../03-ecommerce-customer-analytics/).
 
-**`Miuul_Online_Retail_Analysis.xlsx`**
-
-The workbook retains the underlying formulas, calculations and analysis steps so that the methodology can be inspected rather than presenting only the final results.
-
----
-
-## Data Availability
-
-The original Online Retail dataset contains a large number of transaction records.
-
-For portfolio purposes, the source data should only be redistributed to the extent permitted by the dataset or training program's sharing terms.
-
-If redistribution is not permitted, the raw dataset is kept private while the analytical workbook, methodology, results and project documentation are presented publicly.
-
----
-
-## Training Context
-
-This project was developed as part of the **Miuul Excel & CRM Analytics** training program.
-
-It represents hands-on practice in applying Excel functions, sales analysis, customer analytics and descriptive statistical techniques to a real-world retail transaction dataset.
+It was originally developed during the **Miuul Excel & CRM Analytics** training program and refined here as a portfolio case study focused on business interpretation.
