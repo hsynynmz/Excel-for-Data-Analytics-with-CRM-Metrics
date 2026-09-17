@@ -1,135 +1,121 @@
-# Excel for Data Analytics & CRM Projects
+# Excel & CRM Analytics Portfolio
 
-This repository contains my Excel-based data analytics, CRM, customer segmentation and customer experience projects.
+A portfolio of Excel-based data analytics, CRM analytics, customer segmentation and customer experience projects focused on turning business data into actionable decisions.
 
-The projects focus not only on technical analysis, but also on transforming data into actionable business insights and recommendations.
+The projects follow a business-first approach:
 
----
-
-## Projects
-
-### 01 — Online Retail Analysis
-
-Sales performance analysis, customer metrics and business insights using Microsoft Excel.
-
-Key areas:
-
-- Sales performance analysis
-- Customer metrics
-- Pivot Tables
-- Business insight generation
+**Business Problem → KPI Definition → Data Analysis → Segmentation → Insight → Recommendation → KPI Tracking**
 
 ---
 
-### 02 — CRM & RFM Analysis
+## ⭐ Featured Capstone Project
 
-Customer segmentation using Recency, Frequency and Monetary value analysis.
+### [E-Commerce Customer Analytics Strategy](03-ecommerce-customer-analytics/)
 
-Key areas:
+An end-to-end customer analytics project combining **RFM segmentation, customer reactivation, market basket analysis, customer satisfaction analysis and a 12-month business action plan**.
 
-- RFM Analysis
-- Customer segmentation
-- Recency, Frequency and Monetary scoring
-- Segment-based business strategies
-- Customer retention insights
+**Key areas:**
 
----
-
-### 03 — E-Commerce Customer Analytics
-
-An end-to-end e-commerce customer analytics and strategy project.
-
-Key areas:
-
-- RFM analysis
-- Customer reactivation campaign design
+- RFM customer segmentation
+- At-Risk customer reactivation strategy
 - Market basket analysis
-- JAM MAKING SET WITH JARS sales strategy
-- Customer satisfaction analysis
-- One-year business action plan
+- Cross-sell / bundle opportunities
+- Customer satisfaction prioritization
+- Business recommendations and KPI tracking
+- Executive-level strategy presentation
+
+This is the main portfolio project because it connects multiple CRM and customer analytics methods within a single business decision framework.
 
 ---
 
-### 04 — Airline Customer Satisfaction Analysis
+## Case Studies
 
-Customer experience and satisfaction analysis based on airline passenger survey data.
-
-The project focuses on identifying service performance gaps, customer segments and improvement opportunities using Excel.
-
-Key analyses:
-
-- Business Class satisfaction analysis
-- Satisfaction Map
-- Class vs Flight Distance analysis
-- Age & Gender segmentation
-- Seat Comfort and Inflight Entertainment analysis
-- Departure / Arrival Time Convenience analysis
-- Delay and operational metrics analysis
-- Business insights and strategic recommendations
-
-#### Key Business Insight
-
-Business Class customers show strong satisfaction with operational services such as baggage handling and inflight service, while **Seat Comfort** and **Inflight Entertainment** emerge as important improvement areas.
-
-The analysis also shows that Business Class passengers are heavily concentrated in long-distance flights, suggesting that premium experience improvements should be prioritized especially for long-haul passengers.
-
-Project files include:
-
-- Excel analysis workbook
-- Detailed project README
-- Executive presentation
+| Project | Business Focus | Main Skills |
+|---|---|---|
+| [01 — Online Retail Analysis](01-online-retail-analysis/) | France sales and customer analysis | Excel formulas, KPI analysis, descriptive statistics, customer metrics |
+| [02 — CRM & RFM Analysis](02-crm-rfm-analysis/) | Customer segmentation and retention strategy | RFM scoring, segmentation, retention actions, market basket analysis |
+| [04 — Airline Customer Satisfaction Analysis](04-airline-customer-satisfaction-analysis/) | Customer experience and service prioritization | Satisfaction analysis, segmentation, satisfaction mapping, business recommendations |
 
 ---
 
-## Tools & Methods
+## 👀 Recommended Review Order
 
-- Microsoft Excel
-- Pivot Tables
-- Data Cleaning
-- Customer Segmentation
+For a quick portfolio review:
+
+1. **Start with the [E-Commerce Customer Analytics Capstone](03-ecommerce-customer-analytics/)** to see the complete business story.
+2. Review **[CRM & RFM Analysis](02-crm-rfm-analysis/)** for customer segmentation, retention and cross-sell logic.
+3. Review **[Airline Customer Satisfaction](04-airline-customer-satisfaction-analysis/)** for customer-experience prioritization and cross-analysis.
+4. Review **[Online Retail Analysis](01-online-retail-analysis/)** for Excel, KPI and descriptive-analysis foundations.
+
+---
+
+## Portfolio Highlights
+
+### Customer & CRM Analytics
+
 - RFM Analysis
+- Customer Segmentation
+- Customer Retention
+- Reactivation Strategy
 - Market Basket Analysis
+- Cross-Sell / Bundle Strategy
 - Customer Satisfaction Analysis
 - Satisfaction Mapping
-- Descriptive Analytics
+
+### Data Analysis
+
+- KPI Calculation
+- Pivot Tables
+- Descriptive Statistics
+- Outlier Analysis
+- Customer-Level Analysis
+- Invoice-Level Analysis
+- Data Cleaning
 - Data Visualization
-- Business Insight Generation
-- PowerPoint
 
----
+### Business Thinking
 
-## Analytical Approach
-
-Across these projects, I follow a business-oriented analytics workflow:
-
-**Business Problem → Data Analysis → Segmentation → Insight → Recommendation**
-
-The goal is not only to calculate metrics or build dashboards, but also to understand:
+The objective is not only to calculate metrics, but to answer:
 
 - What happened?
 - Why did it happen?
 - Which customer segment is affected?
 - What is the business impact?
 - What action should be taken?
+- Which KPI should be monitored after the action?
 
 ---
 
-## About This Repository
+## Tools
 
-These projects demonstrate my ability to work with real-world business datasets and transform raw data into:
-
-- Structured analyses
-- Customer insights
-- Segmentation strategies
-- Management-level recommendations
-- Actionable business decisions
+- Microsoft Excel
+- Pivot Tables
+- Excel Functions
+- PowerPoint
+- CRM Analytics Methods
+- Descriptive Analytics
+- Data Visualization
 
 ---
 
-## Author
+## Repository Structure
+
+```text
+Excel-for-Data-Analytics-with-CRM-Metrics/
+│
+├── 01-online-retail-analysis/                 # Case Study
+├── 02-crm-rfm-analysis/                       # Case Study
+├── 03-ecommerce-customer-analytics/           # Featured Capstone Project
+└── 04-airline-customer-satisfaction-analysis/ # Case Study
+```
+
+Each project folder contains its own README with project-specific methodology, findings, business interpretation and deliverables.
+
+---
+
+## About Me
 
 **Hüseyin Yanmaz**  
 Statistics Student | Data Analyst Candidate
 
-**Focus Areas:**  
-Data Analytics • CRM Analytics • Customer Experience • Excel • SQL • Python • Power BI
+**Focus Areas:** Data Analytics • CRM Analytics • Customer Experience • Excel • SQL • Python • Power BI
