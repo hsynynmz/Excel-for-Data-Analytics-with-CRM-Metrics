@@ -6,6 +6,8 @@ This is the **featured capstone project** of the repository.
 
 The project analyzes e-commerce customer and sales data to develop a data-driven customer growth strategy for the next 12 months. It combines multiple CRM and customer analytics methods within a single business decision framework.
 
+![E-Commerce capstone overview](assets/03-capstone-overview.svg)
+
 The analysis was conducted using Microsoft Excel and focuses on three connected areas:
 
 - RFM customer segmentation
