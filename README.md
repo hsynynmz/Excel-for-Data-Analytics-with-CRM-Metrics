@@ -2,9 +2,9 @@
 
 A portfolio of Excel-based data analytics, CRM analytics, customer segmentation and customer experience projects focused on turning business data into actionable decisions.
 
-The projects in this repository follow a business-first approach:
+The projects follow a business-first approach:
 
-**Business Problem → KPI Definition → Data Analysis → Segmentation → Insight → Recommendation**
+**Business Problem → KPI Definition → Data Analysis → Segmentation → Insight → Recommendation → KPI Tracking**
 
 ---
 
@@ -24,17 +24,28 @@ An end-to-end customer analytics project combining **RFM segmentation, customer 
 - Business recommendations and KPI tracking
 - Executive-level strategy presentation
 
-This project is the main portfolio case in this repository because it connects multiple CRM and customer analytics methods within a single business decision framework.
+This is the main portfolio project because it connects multiple CRM and customer analytics methods within a single business decision framework.
 
 ---
 
 ## Case Studies
 
-| Project | Focus | Main Skills |
+| Project | Business Focus | Main Skills |
 |---|---|---|
 | [01 — Online Retail Analysis](01-online-retail-analysis/) | France sales and customer analysis | Excel formulas, KPI analysis, descriptive statistics, customer metrics |
 | [02 — CRM & RFM Analysis](02-crm-rfm-analysis/) | Customer segmentation and retention strategy | RFM scoring, segmentation, retention actions, market basket analysis |
 | [04 — Airline Customer Satisfaction Analysis](04-airline-customer-satisfaction-analysis/) | Customer experience and service prioritization | Satisfaction analysis, segmentation, satisfaction mapping, business recommendations |
+
+---
+
+## 👀 Recommended Review Order
+
+For a quick portfolio review:
+
+1. **Start with the [E-Commerce Customer Analytics Capstone](03-ecommerce-customer-analytics/)** to see the complete business story.
+2. Review **[CRM & RFM Analysis](02-crm-rfm-analysis/)** for customer segmentation, retention and cross-sell logic.
+3. Review **[Airline Customer Satisfaction](04-airline-customer-satisfaction-analysis/)** for customer-experience prioritization and cross-analysis.
+4. Review **[Online Retail Analysis](01-online-retail-analysis/)** for Excel, KPI and descriptive-analysis foundations.
 
 ---
 
@@ -92,13 +103,13 @@ The objective is not only to calculate metrics, but to answer:
 ```text
 Excel-for-Data-Analytics-with-CRM-Metrics/
 │
-├── 01-online-retail-analysis/              # Case Study
-├── 02-crm-rfm-analysis/                    # Case Study
-├── 03-ecommerce-customer-analytics/        # Featured Capstone Project
+├── 01-online-retail-analysis/                 # Case Study
+├── 02-crm-rfm-analysis/                       # Case Study
+├── 03-ecommerce-customer-analytics/           # Featured Capstone Project
 └── 04-airline-customer-satisfaction-analysis/ # Case Study
 ```
 
-Each project folder contains its own README with project-specific methodology, findings and deliverables.
+Each project folder contains its own README with project-specific methodology, findings, business interpretation and deliverables.
 
 ---
 
