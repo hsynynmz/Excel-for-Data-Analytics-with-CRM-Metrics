@@ -1,74 +1,52 @@
-# ✈️ Airline Customer Satisfaction Analysis
+# ✈️ Airline Customer Satisfaction Analysis | Case Study
 
-## 📌 Project Overview
+## Project Overview
 
-This project analyzes airline customer satisfaction data using **Microsoft Excel** with a strong focus on **Business Class customer experience, service prioritization, flight-distance behavior, demographic segmentation, and operational experience metrics**.
+This Excel case study analyzes airline customer satisfaction with a focus on **Business Class experience, service prioritization, flight-distance behavior, demographic segmentation and operational metrics**.
 
-The objective was not only to calculate satisfaction scores, but also to identify:
-
-- Which service areas create the strongest customer experience
-- Which service areas require immediate improvement
-- How flight distance changes across travel classes
-- Whether age and gender create meaningful differences in satisfaction
-- Whether operational delays explain customer perception
-- Which findings should be translated into actionable business decisions
-
-The project follows a **business-first analytics approach**:
+The project follows a business-first workflow:
 
 **Business Question → Excel Analysis → Insight → Business Implication → Recommended Action**
 
----
-
-## 📊 Dataset
-
-The dataset contains **103,904 passenger records** and includes variables such as:
-
-- Gender
-- Age
-- Type of Travel
-- Class
-- Flight Distance
-- Inflight Wi-Fi Service
-- Departure / Arrival Time Convenience
-- Online Booking Experience
-- Gate Location
-- Food & Drink
-- Online Boarding
-- Seat Comfort
-- Inflight Entertainment
-- On-board Service
-- Leg Room Service
-- Baggage Handling
-- Check-in Service
-- Inflight Service
-- Cleanliness
-- Departure Delay
-- Arrival Delay
-- Satisfaction
-- NPS
-
-A separate **Business Class sample of 7,111 passengers** was also analyzed in detail.
+**Project Type:** Case Study  
+**Focus:** Customer Experience Analytics / Service Prioritization / Excel
 
 ---
 
-# 🎯 Business Questions
+## Dataset
 
-The analysis focused on the following questions:
+The dataset contains **103,904 passenger records** with variables covering demographics, travel class, flight distance, service ratings, operational delays, satisfaction and NPS.
 
-1. Which service attributes generate the highest and lowest satisfaction among Business Class passengers?
-2. Which service attributes should be prioritized based on both **importance and satisfaction**?
-3. Does flight distance differ across Business, Economy and Economy Plus passengers?
-4. How do selected service scores change across age and gender segments?
-5. Which customer segments report the lowest satisfaction scores?
-6. How does **Departure / Arrival Time Convenience** relate to flight distance and operational delays?
+A separate **Business Class sample of 7,111 passengers** was analyzed in more detail to investigate the premium customer experience.
 
 ---
 
-# 🔍 Analysis & Key Findings
+## Business Questions
+
+The analysis focuses on:
+
+- Which Business Class service areas perform best and worst?
+- Which low-scoring services are also important to customers?
+- How does flight distance differ by travel class?
+- Do age and gender meaningfully differentiate customer experience?
+- Do operational delays explain schedule-convenience satisfaction?
+- Which findings should translate into concrete business actions?
+
+---
+
+## Executive Summary
+
+The strongest cross-analysis finding is that **Business Class passengers are concentrated in long-distance travel while Seat Comfort and Inflight Entertainment are among the weakest premium-experience attributes**.
+
+Inflight Entertainment also shows relatively high customer importance, making it a more meaningful improvement opportunity than simply targeting every low-scoring service equally.
+
+This suggests a focused CX priority:
+
+> **Improve the premium onboard experience for long-haul Business Class passengers.**
+
+---
 
 ## 1. Business Class Service Performance
-
-Business Class customers show strong satisfaction with operational service areas.
 
 ### Strongest Service Areas
 
@@ -90,51 +68,33 @@ Business Class customers show strong satisfaction with operational service areas
 | Ease of Online Booking | **50.6%** |
 | Gate Location | **51.8%** |
 
-### 💡 Business Insight
+### Business Insight
 
-Operational services such as baggage handling and inflight service perform strongly.
-
-However, two attributes directly associated with the **premium travel experience — Inflight Entertainment and Seat Comfort — are among the lowest-rated services**.
-
-This indicates that the main improvement opportunity is not basic service execution, but the perceived quality of the premium onboard experience.
+Operational services perform relatively strongly, while two attributes directly connected to the premium onboard experience — **Seat Comfort and Inflight Entertainment** — are among the weakest areas.
 
 ---
 
-# 🗺️ 2. Satisfaction Map
+## 2. Satisfaction Map
 
-A **Satisfaction Map** was created by evaluating service attributes through two dimensions:
+Service attributes were evaluated through two dimensions:
 
 - **Importance**
 - **Customer Satisfaction**
 
-This allows service attributes to be prioritized beyond simply looking at average scores.
-
-### Key Example
-
-**Inflight Entertainment**
+A key example is **Inflight Entertainment**:
 
 - Importance: **0.582**
 - Satisfaction: **48.6%**
 
-Inflight Entertainment combines relatively **high importance with low satisfaction**, making it one of the most strategically important improvement areas.
+This combination of relatively high importance and low satisfaction makes it a stronger improvement candidate than looking at satisfaction scores alone.
 
-In comparison, services such as Wi-Fi and On-board Service have both higher importance and stronger satisfaction levels.
+**Decision principle:**
 
-### 💡 Business Insight
-
-A low satisfaction score alone does not automatically justify investment.
-
-The highest priority should be given to services where:
-
-> **Customer Importance is High + Satisfaction is Low**
-
-This makes **Inflight Entertainment a stronger investment priority than some other low-scoring attributes**.
+> High Importance + Low Satisfaction = Higher Improvement Priority
 
 ---
 
-# 🛫 3. Class vs Flight Distance
-
-Flight-distance distribution changes significantly across passenger classes.
+## 3. Class vs Flight Distance
 
 | Class | Short Flight | Medium Flight | Long Flight |
 |---|---:|---:|---:|
@@ -142,32 +102,17 @@ Flight-distance distribution changes significantly across passenger classes.
 | Economy | **43.7%** | **44.2%** | 12.1% |
 | Economy Plus | **45.4%** | **41.5%** | 13.1% |
 
-### 💡 Business Insight
+### Business Insight
 
-More than half of Business Class passengers are concentrated in **long-distance flights**.
+More than half of Business Class passengers are concentrated in **long-distance flights**, while Economy and Economy Plus are concentrated mainly in short and medium distances.
 
-Economy and Economy Plus passengers, on the other hand, are mainly concentrated in short and medium-distance flights.
-
-This means that improvements to:
-
-- Seat Comfort
-- Inflight Entertainment
-- Long-haul onboard experience
-
-may create greater value when prioritized specifically for **long-haul Business Class passengers**.
+This strengthens the case for prioritizing premium-experience improvements on long-haul Business Class routes.
 
 ---
 
-# 👥 4. Age & Gender Segmentation
+## 4. Age & Gender Segmentation
 
-Four customer-experience criteria were compared across age and gender groups:
-
-- Inflight Wi-Fi
-- Inflight Entertainment
-- Seat Comfort
-- Cleanliness
-
-### Gender Comparison
+Selected service scores were compared across age and gender groups.
 
 | Metric | Female | Male |
 |---|---:|---:|
@@ -176,49 +121,15 @@ Four customer-experience criteria were compared across age and gender groups:
 | Seat Comfort | 2.88 | 2.86 |
 | Cleanliness | 3.48 | 3.49 |
 
-### 💡 Business Insight
+Gender differences are minimal in these measures, while age groups show more meaningful variation.
 
-Male and female satisfaction scores are almost identical.
+### Business Implication
 
-Therefore, **gender does not appear to be a strong differentiating variable for customer experience**.
-
-Age segmentation provides more meaningful differences.
+Customer-experience personalization may be more useful when based on **age + flight distance + travel class** rather than gender alone.
 
 ---
 
-# 🎯 5. Age-Based Customer Experience
-
-The age analysis shows that some service problems become more visible within specific customer groups.
-
-Young passenger segments generally report lower scores for:
-
-- Inflight Entertainment
-- Seat Comfort
-
-Middle-aged groups show relatively stronger satisfaction levels.
-
-Very small older-age segments also show low values; however, these results should be interpreted carefully because of limited sample sizes.
-
-### 💡 Business Insight
-
-Customer-experience personalization should focus more on **age and travel behavior** than gender.
-
-For younger passengers, potential improvement areas include:
-
-- More relevant entertainment content
-- Mobile-first entertainment access
-- Better digital experience
-- Improved onboard comfort
-
----
-
-# ⏱️ 6. Departure / Arrival Time Convenience
-
-Flight-distance groups were compared using:
-
-- Departure / Arrival Time Convenience
-- Average Departure Delay
-- Average Arrival Delay
+## 5. Schedule Convenience vs Delays
 
 | Flight Type | Convenience Score | Departure Delay | Arrival Delay |
 |---|---:|---:|---:|
@@ -226,152 +137,63 @@ Flight-distance groups were compared using:
 | Medium Flight | **57.2** | **15.65 min** | **15.99 min** |
 | Long Flight | **52.8** | 14.58 min | 14.67 min |
 
-### 💡 Business Insight
+Medium-distance flights have the highest average delays but also the highest convenience score.
 
-Medium-distance flights have the **highest average delays**, but they also generate the **highest convenience satisfaction score**.
+### Business Insight
 
-Therefore:
-
-> **Operational delay alone does not explain customers' perception of schedule convenience.**
-
-Other factors may also influence customer perception, including:
-
-- Departure time
-- Arrival time
-- Connection availability
-- Schedule flexibility
-- Overall travel planning convenience
-
-This suggests that schedule convenience should be analyzed separately from pure operational delay performance.
+**Operational delay alone does not explain perceived schedule convenience.** Other factors such as departure time, arrival time, connections and schedule flexibility should also be investigated.
 
 ---
 
-# 🔗 Cross-Analysis Insight
+## Cross-Analysis Logic
 
-The strongest insight appears when multiple analyses are connected.
+**Business Class**  
+→ 56.3% long-distance travel  
+→ Seat Comfort & Inflight Entertainment among weakest services  
+→ Inflight Entertainment also relatively important  
+→ **Priority: long-haul premium onboard experience**
 
-### Business Class
-⬇  
-**56.3% of passengers travel on long-distance flights**
-
-### Business Class Satisfaction
-⬇  
-**Seat Comfort and Inflight Entertainment are among the lowest-rated services**
-
-### Satisfaction Map
-⬇  
-**Inflight Entertainment also has relatively high customer importance**
-
-### Business Conclusion
-
-The largest customer-experience opportunity appears to be:
-
-> **Improving the premium onboard experience of long-haul Business Class passengers.**
-
-This conclusion is stronger than evaluating any individual Pivot Table alone because it combines:
+This is stronger than interpreting individual Pivot Tables separately because it combines:
 
 **Customer Segment + Flight Behavior + Satisfaction + Service Importance**
 
 ---
 
-# 🚀 Business Recommendations
+## Business Recommendations
 
-## 1. Improve Inflight Entertainment
-
-Inflight Entertainment should be treated as a strategic customer-experience priority because it combines low satisfaction with relatively high customer importance.
-
-Possible actions:
-
-- Expand entertainment content variety
-- Improve mobile/device accessibility
-- Develop age-based content categories
-- Improve entertainment system usability
+1. **Improve Inflight Entertainment** — expand content variety, improve usability and mobile/device access.
+2. **Investigate Seat Comfort** — analyze aircraft and seat configuration, especially on long-haul Business Class routes.
+3. **Prioritize Long-Haul Premium Experience** — focus improvement investment where Business Class exposure is greatest.
+4. **Use Multi-Dimensional Segmentation** — combine age, flight distance, class and travel type rather than gender alone.
+5. **Investigate Schedule Convenience Beyond Delays** — include schedule timing, route structure and connection availability in future analysis.
 
 ---
 
-## 2. Improve Seat Comfort
+## Tools & Methods
 
-Seat Comfort is consistently one of the lowest-rated premium experience attributes.
-
-Possible actions:
-
-- Analyze satisfaction by aircraft and seat configuration
-- Conduct ergonomic customer research
-- Prioritize long-haul Business Class aircraft
-- Track comfort scores after improvements
-
----
-
-## 3. Focus Premium Improvements on Long-Haul Flights
-
-Because **56.3% of Business Class passengers are long-haul passengers**, premium-experience improvements should initially focus on long-distance routes.
-
-This approach may generate greater customer value than applying the same investment equally across all flight types.
-
----
-
-## 4. Use Age-Based Segmentation
-
-Gender differences are limited, while age segments show greater variation.
-
-Future customer-experience initiatives should therefore consider:
-
-- Age
-- Flight Distance
-- Travel Class
-- Travel Type
-
-together rather than relying on gender-based segmentation alone.
-
----
-
-## 5. Investigate Schedule Convenience Beyond Delays
-
-Departure and arrival delays do not fully explain schedule-convenience satisfaction.
-
-Future analysis should include:
-
-- Flight schedule
-- Departure time
-- Arrival time
-- Connection structure
-- Route characteristics
-
-to identify the real drivers of customer schedule perception.
-
----
-
-# 🛠️ Tools & Methods
-
-### Microsoft Excel
-
+- Microsoft Excel
 - Pivot Tables
 - Data Filtering
-- Conditional Analysis
 - Customer Segmentation
 - Satisfaction Scoring
 - Satisfaction Mapping
 - Descriptive Statistics
 - Business KPI Analysis
-- Data Visualization
-
-### Analytical Approach
-
 - Customer Experience Analytics
-- Segmentation Analysis
-- Service Performance Analysis
-- Importance vs Satisfaction Analysis
 - Cross-Analysis
 - Business Insight Generation
-- Action-Oriented Recommendations
 
 ---
 
-# 📂 Project Files
+## Project Files
 
-```text
-04-airline-customer-satisfaction-analysis/
-│
-├── README.md
-├── Airline_Customer_Satisfaction_Analysis.xlsx
-└── Airline_Customer_Satisfaction_Executive_Deck.pdf
+- `Airline_Customer_Satisfaction_Analysis.xlsx` — Excel analysis workbook
+- `Airline_Customer_Satisfaction_Executive_Deck.pdf` — executive presentation
+
+---
+
+## Portfolio Role
+
+This case study demonstrates how Excel analysis can move from descriptive customer-experience metrics to **service prioritization and action-oriented recommendations**.
+
+It complements the broader [E-Commerce Customer Analytics Capstone Project](../03-ecommerce-customer-analytics/) by showing customer-experience analysis in a different business context.
