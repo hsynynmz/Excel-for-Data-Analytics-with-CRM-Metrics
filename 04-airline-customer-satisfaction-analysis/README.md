@@ -8,6 +8,8 @@ The project follows a business-first workflow:
 
 **Business Question → Excel Analysis → Insight → Business Implication → Recommended Action**
 
+![Airline customer satisfaction overview](assets/04-airline-cx-overview.svg)
+
 **Project Type:** Case Study  
 **Focus:** Customer Experience Analytics / Service Prioritization / Excel
 
